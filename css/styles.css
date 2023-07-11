@@ -1,0 +1,610 @@
+html,
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: auto;
+    background-color: #000000;
+    
+   
+}
+
+header {
+    background-size: 100%;
+    background-color: rgb(15, 15, 15);
+    height: auto;
+    
+}
+
+
+header .logo-text {
+    font-family: 'Candal', serif;
+    color: #eaca38;
+    
+}
+
+header .logo-text span {
+    color: #eaca38;
+
+}
+
+nav ul {
+    list-style: none;
+    margin-right: 30px;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+
+}
+
+nav ul li:nth-last-child(2) a {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #000000;
+    background: #eaca38;
+    padding: 10px 35px;
+    border-radius: 25px;
+    border-color: #000000;
+    letter-spacing: 1px;
+    transition: transform .2s;
+
+}
+
+.nouser {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #000000;
+    background: #eaca38;
+    padding: 10px 35px;
+    border-radius: 25px;
+    border-color: #000000;
+    letter-spacing: 1px;
+    transition: transform .2s;
+
+}
+
+nav ul li:nth-last-child(2) a:hover {
+    color: #3b9488;
+    background: #FFFFFF;
+    text-decoration: none;
+    border-color: #3b9488;
+    transform: scale(1.1);
+
+}
+
+nav ul li a {
+    display: block;
+    color: #1191a7;
+    font-size: 18px;
+
+}
+
+nav ul li a:hover {
+    color: #1191a7;
+    text-decoration: none;
+
+}
+
+/*------  CONTENT ------*/
+
+.video-land {
+    position: relative; 
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+  
+}
+
+.video-land video {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    width: 50%;
+    transform: translate(-50%, 0%);
+    opacity: 0.35;
+    
+}
+
+.findgamehome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+    
+}
+
+/* gamegrid */
+
+.gamegrid {
+    margin: 80px 0;
+    text-align: center;
+}
+.gamegrid .fieldinfo{
+    width: 100%;
+    
+}
+.gamegrid a{
+    margin: 5px 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.gamegrid li {
+    display: inline-block;
+    margin-top: 5px;
+    width: 30%;
+    height: max-content;
+    background-color: rgb(15, 15, 15);
+    border-radius: 5px;
+
+}
+.gamegrid img{
+    position: relative; 
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+}
+
+.gamegrid p.date {
+    width: fit-content;
+    font-size: smaller;
+    color: gray;
+    height: 5%;
+    margin: 10px 5px;
+}
+
+/* End gamegrid */
+#hero {
+    width: 95%;
+    margin: auto;
+   
+}
+
+#hero h1 {
+    color: #000000;
+    font-size: 3vw;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content p {
+    color: #000000;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    border-radius: 15px;
+
+}
+
+.btn-pink {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #000000;
+    background: #f4dc05;
+    padding: 10px 35px;
+    border-radius: 25px;
+    border-color: #000000;
+    transition: all .2s;
+    letter-spacing: 1px;
+   
+
+}
+
+.btn-pink:hover {
+    color: #3b9488;
+    background: #FFFFFF;
+    text-decoration: none;
+    border-color: #3b9488;
+
+}
+
+/*------  CONTENT ------*/
+
+/*form login/register*/
+#formulariologin {
+    background: rgb(250,250,250);
+    border: 1px solid rgb(255,255,255);
+    font-family: 'Work Sans', sans-serif;
+    height: fit-content;
+    color: #888888;
+    
+}
+
+#formulariologin h2 {
+    color: #4f546e;
+    font-size: 2vw;
+    
+}
+
+#formulariologin input {
+    color: #888888;
+    border: 3px solid #888888;
+     
+}
+
+#formulariologin .wrap {
+    margin: auto;
+    width: 350px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    
+}
+#formulariologin .wrap input {
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+    border: 1px solid #bbbaba;
+    width: inherit;
+    
+}
+#formulariologin .wrap label {
+    width: 90%;
+    
+}
+#formulariologin .wrap h1 {
+    margin: auto;
+    justify-content: center;
+    width: max-content;
+    padding: 10px;
+    
+    
+}
+
+#formulariologin .wrap input[type=radio]{
+    width: 10%;
+    margin-top: 15px;
+    
+}
+
+#formulariologin .wrap button {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #000000;
+    background: #eaca38;
+    padding: 10px 35px;
+    border-radius: 25px;
+    border-color: #000000;
+    transition: all .2s;
+    letter-spacing: 1px;
+    margin-top: 10px;
+
+}
+
+#formulariologin .wrap button:hover {
+    color: #eaca38;
+    background: #000000;
+    text-decoration: none;
+    border-color: #eaca38;
+
+}
+
+
+#formularioregister {
+    background: rgb(250,250,250);
+    border: 1px solid rgb(255,255,255);
+    font-family: 'Work Sans', sans-serif;
+    height: auto;
+    color: #888888;
+    
+}
+
+#formularioregister h2 {
+    color: #4f546e;
+    font-size: 2vw;
+    
+}
+
+#formularioregister input {
+    color: #888888;
+    border: 3px solid #888888;
+     
+}
+
+#formularioregister .wrap {
+    margin: auto;
+    width: 350px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #bbbaba;
+    border-radius: 5px;
+    
+}
+
+#formularioregister .wrap input {
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+    border: 1px solid #bbbaba;
+    width: inherit;
+    
+}
+
+#formularioregister .wrap label {
+    width: 90%;
+    
+}
+
+#formularioregister .wrap input[type=radio]{
+    width: 10%;
+    margin-top: 15px;
+    
+}
+
+#formularioregister .wrap button {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #000000;
+    background: #eaca38;
+    padding: 10px 35px;
+    border-radius: 25px;
+    border-color: #000000;
+    transition: all .2s;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+#formularioregister .wrap button:hover {
+    color: #eaca38;
+    background: #000000;
+    text-decoration: none;
+    border-color: #eaca38;
+}
+.wrap button {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #000000;
+    background: #eaca38;
+    padding: 10px 35px;
+    border-radius: 25px;
+    border-color: #000000;
+    transition: all .2s;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.wrap button:hover {
+    color: #eaca38;
+    background: #000000;
+    text-decoration: none;
+    border-color: #eaca38;
+}
+
+footer {
+    padding: 20px 0;
+    background: rgb(0, 0, 0);
+    color: #989898;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+input.innerText {
+    border: 1px solid #da1717;
+    color: #da1717;
+  }
+  /*game styles*/
+
+
+/*queries*--------------------------------------------------------------------------*/
+
+@media (max-width: 767.98px) {
+    h1 {
+        font-size: 10vw;
+    }   
+
+    nav ul li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+}
+
+/* [LG] Laptop */
+@media (max-width: 1199.98px) {}
+
+/* [MD] Tablet */
+@media (max-width: 991.98px) {
+    
+    nav ul li {
+        margin-right: 15px;
+
+    }
+
+    .video-land video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0.35;
+        border: 2px solid pink;
+        transform: translate(0%, 0%);
+       
+    }
+
+}
+
+/* [SM] Phone Landscape */
+@media (max-width: 767.98px) {
+    header {
+       line-height: 1;
+         
+    }
+
+    header .img-fluid {
+        width: 50px;
+        height: 50px;
+            
+    }
+
+    header .logo-text {
+        font-size: 1.5em;
+        
+    }
+    
+    header .logo-text span {
+        color: rgb(174, 174, 206);
+    
+    }
+
+    nav ul {
+        padding: 0;
+        margin: 0;
+        font-size: 0;
+        
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin: 0;
+        padding: 0 10px;
+    }
+
+    nav ul li a {
+        display: block;
+        color: #818991;
+        font-size: 16px;
+    }
+
+    nav ul li:nth-last-child(2) a {
+        display: inline-block;
+        text-transform: none;
+        font-size: 16px;
+        color: #818991;
+        background: none;
+        padding: 0;
+        border-radius: none;
+        border-color: none;
+        letter-spacing: none;
+        transition: none;
+        margin: 0;
+    }
+
+    nav ul li:nth-last-child(2) a:hover {
+        background: none;
+        border-radius: none;
+        border-color: none;
+        transform: scale(1.1);
+        color: #333333;
+        text-decoration: none;
+    }
+    
+    header {
+        padding: 10px 0;
+    }
+
+    .video-land video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0.35;
+        border: 2px solid pink;
+        transform: translate(0%, 0%);
+       
+    }
+
+    
+    /*Formulario*/
+    h1, h2 {
+        font-size: 6vw;
+
+    }
+
+    #formulario h2 {
+        font-size: 4vw;
+        font-weight: bold;
+        
+    }
+   
+}
+
+/* [XS] Phone Portrait */
+@media (max-width: 575.98px) {
+    .gamegrid li {
+        display: inline-block;
+        margin-top: 5px;
+        width: 100%;
+        height: max-content;
+        background-color: rgb(15, 15, 15);
+        border-radius: 5px;
+    
+    }
+
+    .btn-pink {
+        display: inline-block;
+        text-transform: uppercase;
+        width: 200px;
+        font-size: 14px;
+        color: #000000;
+        background: #f4dc05;
+        padding: 10px 35px;
+        border-radius: 25px;
+        border-color: #000000;
+        transition: all .2s;
+        letter-spacing: 1px;
+        margin: 0;    
+    
+    }
+    
+    .video-land {
+        position: relative; 
+        width: 100%;
+        height: 300px;
+        margin: 0 auto;
+        
+    }
+    
+    .video-land video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0.35;
+        border: 2px solid pink;
+        transform: translate(0%, 0%);
+       
+        
+    }
+
+    .gamegrid {
+        
+        margin: 120px 0;
+        text-align: center;
+    }
+
+    .commentsection {
+        width: 90%;
+        margin: auto;
+        
+    }
+   
+    #formulariologin .wrap h1{
+        margin: auto;
+    }
+    #formulariologin .wrap h2{
+        
+        font-size: 19px;
+        font-weight: 400;
+        
+    }
+
+}
+
